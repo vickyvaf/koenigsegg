@@ -352,7 +352,12 @@ footer {
   }
 
   .hero model-viewer {
-    scale: 90%;
+    scale: 70%;
+  }
+
+  .model {
+    scale: 50%;
+    width: 350px;
   }
 
   .hero .title {
