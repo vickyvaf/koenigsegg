@@ -362,7 +362,7 @@ footer {
   }
 
   .hero .model {
-    width: 280px;
+    width: 350px;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -370,7 +370,7 @@ footer {
   }
 
   .hero .model model-viewer {
-    scale: 100%;
+    scale: 105%;
     margin: 0 auto;
   }
 
