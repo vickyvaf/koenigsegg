@@ -346,7 +346,7 @@ footer {
   }
 
   .hero {
-    width: 350px;
+    width: 100%;
     flex-direction: column;
     padding: unset;
   }
