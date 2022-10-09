@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KOENIGSEGG</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="hero">
+          <model-viewer
+            src="cars/car3/scene.gltf"
+            camera-controls
+            auto-rotate
+            ar
+            ar-environment
+            disable-zoom
+          ></model-viewer>
+          <div class="title">
+            <div>
+              <h2>koenigsegg jesko</h2>
+              <img src="img/logo1.png" alt="" />
+            </div>
+            <p>
+              Dikombinasikan dengan perubahan aerodinamika dan persneling
+              sembilan kecepatan, Jesko Absolut memiliki kecepatan tertinggi
+              teoritis sekitar 330 mil/jam (531 km/jam).
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="our-product">
+        <div class="product-title"><h2>🤑 NEW PRODUCT 🤑</h2></div>
+        <div class="cards">
+          <div class="card">
+            <img class="card-img" src="img/img2.png" alt="" />
+            <h2>koenigsegg gemera</h2>
+            <div class="card-desc">
+              <p>
+                Koenigsegg Gemera adalah grand tourer hybrid plug-in empat kursi
+                produksi terbatas yang akan diproduksi oleh produsen mobil
+                Swedia Koenigsegg.
+              </p>
+            </div>
+            <div class="button">
+              <button onclick="buy()"><i class="fa-solid fa-cart-shopping"></i>BUY NOW</button>
+              <button onclick="detail()">
+                <i class="fa-solid fa-magnifying-glass"></i>DETAIL
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img2" src="img/img1.png" alt="" />
+            <h2>koenigsegg ccx</h2>
+            <div class="card-desc">
+              <p>
+                siapa sangka kalau supercar yang satu ini masih memegang tahta
+                mobil sport termahal di dunia lho! Satu unit mobil ini dihargai
+                sekitar $ 4.8 juta atau sekitar 70 miliar saat dirupiahkan.
+              </p>
+            </div>
+            <div class="button">
+              <button onclick="buy()"><i class="fa-solid fa-cart-shopping"></i>BUY NOW</button>
+              <button onclick="detail()">
+                <i class="fa-solid fa-magnifying-glass"></i>DETAIL
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img3" src="img/img3.png" alt="" />
+            <h2>koenigsegg agera</h2>
+            <div class="card-desc">
+              <p>
+                Agera RS memegang rekor mobil buatan massal terkencang. Mesinnya
+                berkapasitas 5.000 cc V8 twin turbo yang mengeluarkan tenaga
+                1.160 dk dan torsi 1.280 Nm
+              </p>
+            </div>
+            <div class="button">
+              <button onclick="buy()"><i class="fa-solid fa-cart-shopping"></i>BUY NOW</button>
+              <button onclick="detail()">
+                <i class="fa-solid fa-magnifying-glass"></i>DETAIL
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img4" src="img/img4.png" alt="" />
+            <h2>koenigsegg one</h2>
+            <div class="card-desc">
+              <p>
+                sebuah Koenigsegg yang khusus membuat mobil tercepat. Kecepatan
+                tertingginya adalah 400 km/jam. Akselerasi 0-100 km pun hanya
+                1,9 detik.
+              </p>
+            </div>
+            <div class="button">
+              <button onclick="buy()"><i class="fa-solid fa-cart-shopping"></i>BUY NOW</button>
+              <button onclick="detail()">
+                <i class="fa-solid fa-magnifying-glass"></i>DETAIL
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="footer">
+          <img src="img/footer.png" alt="" />
+          <div class="footer-right">
+            <div class="footer-title">
+              <h2>koenigsegg</h2>
+              <img src="img/logo1.png" alt="" />
+            </div>
+            <div class="footer-desc">
+              <p>
+                Koenigsegg Automotive AB adalah perusahaan mobil sport
+                berperforma tinggi yang berasal dari Swedia. Perusahaan ini
+                bermarkas di Ängelholm.
+              </p>
+            </div>
+          </div>
+        </div>
+        <p class="cp">KOENIGSEGG © 2022</p>
+      </footer>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
