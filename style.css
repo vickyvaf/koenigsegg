@@ -351,6 +351,10 @@ footer {
     padding: unset;
   }
 
+  .hero model-viewer {
+    scale: 55%;
+  }
+
   .model {
     scale: 55%;
     width: 350px;
