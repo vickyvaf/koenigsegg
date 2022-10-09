@@ -51,7 +51,7 @@
   text-transform: uppercase;
 }
 
-.hero>model-viewer {
+.hero>.model>model-viewer {
   width: 500px;
   height: 500px;
 }
@@ -268,7 +268,7 @@ footer {
 
   .wrapper {
     width: 100%;
-    padding-bottom: 50px;
+    height: 800px;
   }
 
   .hero {
@@ -277,8 +277,17 @@ footer {
     padding: unset;
   }
 
-  .hero model-viewer {
-    scale: 100%;
+  .hero .model {
+    width: 400px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero .model model-viewer {
+    scale: 90%;
+    margin: 0 auto;
   }
 
   .hero .title {
@@ -342,6 +351,7 @@ footer {
 
   .wrapper {
     width: 100%;
+    height: 650px;
     padding-bottom: 50px;
   }
 
@@ -351,13 +361,21 @@ footer {
     padding: unset;
   }
 
-  .hero model-viewer {
-    scale: 65%;
+  .hero .model {
+    width: 280px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero .model model-viewer {
+    scale: 100%;
+    margin: 0 auto;
   }
 
   .model {
-    scale: 65%;
-    width: 350px;
+    overflow: hidden
   }
 
   .hero .title {
